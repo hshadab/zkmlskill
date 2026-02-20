@@ -1,0 +1,23 @@
+{
+  "name": "jolt-atlas-skill",
+  "version": "1.0.0",
+  "description": "Claude Code skill for jolt-atlas zkML — zero-knowledge proofs of ML inference from ONNX models",
+  "keywords": ["claude-code", "claude-skill", "zkml", "zero-knowledge", "jolt", "snark", "onnx", "machine-learning"],
+  "homepage": "https://github.com/hshadab/zkmlskill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hshadab/zkmlskill.git"
+  },
+  "license": "MIT",
+  "author": "hshadab",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "templates/",
+    "references/",
+    ".claude/"
+  ],
+  "scripts": {
+    "postinstall": "echo '\n✓ jolt-atlas skill installed.\n\nTo activate, symlink into your Claude skills directory:\n\n  ln -s '\"'\"'\"$(pwd)\"'\"'\"' ~/.claude/skills/jolt-atlas\n'"
+  }
+}
